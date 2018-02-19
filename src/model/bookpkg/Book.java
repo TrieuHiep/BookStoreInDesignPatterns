@@ -1,4 +1,4 @@
-package bookpkg;
+package model.bookpkg;
 
 public class Book {
     protected int idBook;

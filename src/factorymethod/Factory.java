@@ -1,6 +1,6 @@
 package factorymethod;
 
-import bookpkg.Book;
+import model.bookpkg.Book;
 
 public interface Factory {
     public abstract Book createBookObject(String typeBook);

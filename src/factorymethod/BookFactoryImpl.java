@@ -1,8 +1,8 @@
 package factorymethod;
 
-import bookpkg.Book;
-import bookpkg.NovelBook;
-import bookpkg.TechniqueBook;
+import model.bookpkg.Book;
+import model.bookpkg.NovelBook;
+import model.bookpkg.TechniqueBook;
 
 public class BookFactoryImpl implements Factory {
     @Override

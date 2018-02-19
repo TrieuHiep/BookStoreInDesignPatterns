@@ -1,4 +1,4 @@
-package bookpkg;
+package model.bookpkg;
 
 public class NovelBook extends  Book{
     private int totalChapter;
