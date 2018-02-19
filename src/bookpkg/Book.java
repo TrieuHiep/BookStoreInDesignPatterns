@@ -3,14 +3,14 @@ package bookpkg;
 public class Book {
     protected int idBook;
     protected String bookName;
-    protected String author;
+    protected Author author;
     protected double price;
     protected Publisher publisher;
 
     public Book() {
     }
 
-    public Book(int idBook, String bookName, String author, double price, Publisher publisher) {
+    public Book(int idBook, String bookName, Author author, double price, Publisher publisher) {
         this.idBook = idBook;
         this.bookName = bookName;
         this.author = author;
@@ -34,11 +34,11 @@ public class Book {
         this.bookName = bookName;
     }
 
-    public String getAuthor() {
+    public Author getAuthor() {
         return author;
     }
 
-    public void setAuthor(String author) {
+    public void setAuthor(Author author) {
         this.author = author;
     }
 
