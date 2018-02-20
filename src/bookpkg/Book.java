@@ -1,7 +1,7 @@
 package bookpkg;
 
 public class Book {
-    protected int idBook;
+    protected String idBook;
     protected String bookName;
     protected Author author;
     protected double price;
@@ -10,7 +10,7 @@ public class Book {
     public Book() {
     }
 
-    public Book(int idBook, String bookName, Author author, double price, Publisher publisher) {
+    public Book(String idBook, String bookName, Author author, double price, Publisher publisher) {
         this.idBook = idBook;
         this.bookName = bookName;
         this.author = author;
@@ -18,11 +18,11 @@ public class Book {
         this.publisher = publisher;
     }
 
-    public int getIdBook() {
+    public String getIdBook() {
         return idBook;
     }
 
-    public void setIdBook(int idBook) {
+    public void setIdBook(String idBook) {
         this.idBook = idBook;
     }
 
