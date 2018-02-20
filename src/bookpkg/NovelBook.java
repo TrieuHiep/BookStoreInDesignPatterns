@@ -6,7 +6,7 @@ public class NovelBook extends  Book{
     public NovelBook() {
     }
 
-    public NovelBook(int idBook, String bookName, Author author,
+    public NovelBook(String idBook, String bookName, Author author,
                      double price, Publisher publisher,
                      int totalChapter) {
         super(idBook, bookName, author, price, publisher);
