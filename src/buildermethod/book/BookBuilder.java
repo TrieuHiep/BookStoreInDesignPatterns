@@ -1,4 +1,4 @@
-package buildermethod;
+package buildermethod.book;
 
 import bookpkg.Author;
 import bookpkg.Publisher;

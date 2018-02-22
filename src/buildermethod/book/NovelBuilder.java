@@ -1,10 +1,11 @@
-package buildermethod;
+package buildermethod.book;
 
 import bookpkg.Author;
 import bookpkg.NovelBook;
 import bookpkg.Publisher;
+import buildermethod.book.BookBuilder;
 
-public class NovelBuilder extends BookBuilder{
+public class NovelBuilder extends BookBuilder {
     private NovelBook novel;
 
     @Override

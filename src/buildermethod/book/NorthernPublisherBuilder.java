@@ -1,8 +1,8 @@
-package buildermethod;
+package buildermethod.book;
 
 import bookpkg.Publisher;
 
-public class NorthernPublisherBuilder extends PublisherBuilder{
+public class NorthernPublisherBuilder extends PublisherBuilder {
     private Publisher pub;
     @Override
     public void buildIdPub(String idPub) {

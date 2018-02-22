@@ -1,4 +1,4 @@
-package buildermethod;
+package buildermethod.book;
 
 public abstract class AuthorBuilder {
     abstract public void buildIdAu(String idAu);

@@ -2,6 +2,9 @@ package buildermethod;
 
 import bookpkg.Author;
 import bookpkg.Publisher;
+import buildermethod.book.*;
+import buildermethod.customer.CustomerDirector;
+import buildermethod.customer.VIPCustomerBuilder;
 
 public class TestBuilder {
     public static void main(String[] args) {
@@ -21,6 +24,11 @@ public class TestBuilder {
         NovelDirector novelDirector = new NovelDirector();
         NovelBuilder novelBuilder = new NovelBuilder();
         novelDirector.construct(novelBuilder, "Nov01", "Doraemon", au, pub, 69, 24);
+
+        /*Create a VIP customer*/
+        CustomerDirector cusDirector = new CustomerDirector();
+        VIPCustomerBuilder vipBuilder = new VIPCustomerBuilder();
+        cusDirector.construct(vipBuilder,"VIP01","Nguyen Van Hien", "HANOI","03958","VIP01010");
 
     }
 }

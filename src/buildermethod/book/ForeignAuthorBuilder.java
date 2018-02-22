@@ -1,4 +1,4 @@
-package buildermethod;
+package buildermethod.book;
 
 import bookpkg.Author;
 
@@ -19,6 +19,7 @@ public class ForeignAuthorBuilder extends AuthorBuilder{
     public void buildPenName(String penName) {
         au.setPenName(penName);
     }
+
 
     public Author getAu() {
         return au;

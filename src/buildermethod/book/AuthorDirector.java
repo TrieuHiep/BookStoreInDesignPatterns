@@ -1,4 +1,4 @@
-package buildermethod;
+package buildermethod.book;
 
 public class AuthorDirector {
     public void construct(AuthorBuilder authorBuilder, String idAu, String name, String penName){
