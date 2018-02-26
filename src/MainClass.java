@@ -1,4 +1,4 @@
-import model.bookpkg.Book;
+import model.itemspkg.bookpkg.Book;
 import factorymethod.BookFactoryImpl;
 import factorymethod.Factory;
 

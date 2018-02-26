@@ -1,20 +1,19 @@
-package model.bookpkg;
+package model.itemspkg.bookpkg;
 
-public class Book {
+import model.itemspkg.Product;
+import model.itemspkg.bookpkg.Publisher;
+
+public class Book extends Product {
     protected int idBook;
-    protected String bookName;
     protected String author;
-    protected double price;
     protected Publisher publisher;
 
     public Book() {
     }
 
-    public Book(int idBook, String bookName, String author, double price, Publisher publisher) {
+    public Book(int idBook, String bookName, String author, Publisher publisher) {
         this.idBook = idBook;
-        this.bookName = bookName;
         this.author = author;
-        this.price = price;
         this.publisher = publisher;
     }
 
@@ -26,14 +25,6 @@ public class Book {
         this.idBook = idBook;
     }
 
-    public String getBookName() {
-        return bookName;
-    }
-
-    public void setBookName(String bookName) {
-        this.bookName = bookName;
-    }
-
     public String getAuthor() {
         return author;
     }
@@ -41,15 +32,7 @@ public class Book {
     public void setAuthor(String author) {
         this.author = author;
     }
-
-    public double getPrice() {
-        return price;
-    }
-
-    public void setPrice(double price) {
-        this.price = price;
-    }
-
+    
     public Publisher getPublisher() {
         return publisher;
     }

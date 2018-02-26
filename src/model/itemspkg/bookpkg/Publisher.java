@@ -1,4 +1,4 @@
-package model.bookpkg;
+package model.itemspkg.bookpkg;
 
 public class Publisher {
     private String idPublisher;
